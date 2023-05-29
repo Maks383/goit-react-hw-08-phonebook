@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/983.b360d868.chunk.js","mappings":"kMAAe,SAASA,IACtB,OACE,gBAAKC,MAAO,CAAEC,UAAW,UAAzB,UACE,wBAAI,cAGT,C","sources":["pages/HomePage.jsx"],"sourcesContent":["export default function Home() {\n  return (\n    <div style={{ textAlign: 'center' }}>\n      <h1>Welcome!</h1>\n    </div>\n  );\n}\n"],"names":["Home","style","textAlign"],"sourceRoot":""}
