@@ -23,7 +23,13 @@ export const ContactsList = () => {
             {contact.name}: {contact.number}
           </p>
           <button
-
+            style={{
+              padding: '5px',
+              width: '100px',
+              height: '30px',
+              borderRadius: '4px',
+              cursor: 'pointer',
+            }}
             type="button"
             onClick={() => dispatch(deleteContact(contact.id))}
           >

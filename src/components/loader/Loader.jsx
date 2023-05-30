@@ -10,8 +10,8 @@ export function Loader() {
       }}
     >
       <ThreeDots
-        type="Oval"
-        color="#fffff"
+        type="triangle"
+        color="#yelow"
         height={100}
         width={100}
         timeout={3000}

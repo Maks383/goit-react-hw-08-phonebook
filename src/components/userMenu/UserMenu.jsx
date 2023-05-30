@@ -7,8 +7,8 @@ export const UserMenu = () => {
   const { user } = useAuth();
 
   return (
-    <div style={{  }}>
-      <p style={{  }}>
+       <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+      <p style={{ fontWeight: 'bold', fontSize: '16px', textAlign: 'end' }}>
         Hi, {user.name}!
       </p>
       <button type="button" onClick={() => dispatch(logOut())}>
@@ -17,3 +17,4 @@ export const UserMenu = () => {
     </div>
   );
 };
+    
