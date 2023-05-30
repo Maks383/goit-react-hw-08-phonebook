@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Label = styled.label`
+max-width: 550px;
 margin: 20px;
   padding: 12px;
   min-width: 300px;
