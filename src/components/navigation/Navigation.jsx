@@ -8,7 +8,19 @@ export const Navigation = () => {
 
   return (
     <header
-    >
+    style={{
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      marginBottom: '30px',
+      paddingBottom: '10px',
+      paddingTop: '10px',
+      paddingLeft: '30px',
+      paddingRight: '30px',
+      fontSize: '24px',
+      borderBottom: '2px solid yellow',
+    }}
+  >
       <nav
         style={{
           display: 'flex',
